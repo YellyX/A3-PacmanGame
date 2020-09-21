@@ -293,7 +293,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 960, y: 500}
+  m_ReferenceResolution: {x: 0, y: 500}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -43558,8 +43558,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_eatedDot: 0
-  m_scoreText: {fileID: 1403011513}
-  m_highScoreText: {fileID: 1813742215}
+  m_scoreText: {fileID: 0}
+  m_highScoreText: {fileID: 0}
   m_lifeText: {fileID: 1185678327}
   m_pauseButton: {fileID: 0}
   m_pauseSprite: {fileID: 21300000, guid: 49698c3dd48a25c40933559f49ebbcbf, type: 3}
@@ -56566,7 +56566,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1403011512}
   - component: {fileID: 1403011514}
-  - component: {fileID: 1403011513}
   m_Layer: 5
   m_Name: CurScore
   m_TagString: Untagged
@@ -56593,38 +56592,6 @@ RectTransform:
   m_AnchoredPosition: {x: 188.93, y: -149}
   m_SizeDelta: {x: 297.87, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1403011513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403011511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.966, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Score\uFF1A"
 --- !u!222 &1403011514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -69824,7 +69791,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1813742214}
   - component: {fileID: 1813742216}
-  - component: {fileID: 1813742215}
   m_Layer: 5
   m_Name: HighScore
   m_TagString: Untagged
@@ -69840,7 +69806,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813742213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3653121}
@@ -69851,38 +69817,6 @@ RectTransform:
   m_AnchoredPosition: {x: 187.87, y: -196}
   m_SizeDelta: {x: 300, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1813742215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813742213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.966, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Highest Score\uFF1A"
 --- !u!222 &1813742216
 CanvasRenderer:
   m_ObjectHideFlags: 0

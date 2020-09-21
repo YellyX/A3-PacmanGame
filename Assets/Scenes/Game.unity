@@ -56624,7 +56624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5206\u6570\uFF1A"
+  m_Text: "Score\uFF1A"
 --- !u!222 &1403011514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -69882,7 +69882,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6700\u9AD8\u5206\uFF1A"
+  m_Text: "Highest Score\uFF1A"
 --- !u!222 &1813742216
 CanvasRenderer:
   m_ObjectHideFlags: 0
